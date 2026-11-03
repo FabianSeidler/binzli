@@ -1,0 +1,29 @@
+[project]
+name = "binzli"
+version = "0.1.0"
+description = "A simple-minded and overly rigorous binning package that sticks to the rules"
+readme = "README.md"
+requires-python = ">=3.11,<=4.0"
+license = "AGPL-3.0"
+authors = [
+    {name = "Fabian L. Seidler", email = "fabian.seidler@eaps.ethz.ch"},
+]
+
+keywords = [
+  "binning",
+]
+
+dependencies = [
+    "scipy>=1.10.0",
+    "numpy>=1.24.0",
+    "numba>=0.64.0",
+]
+
+
+[project.urls]
+repository = "https://github.com/FabianSeidler/binzli"
+issues = "https://github.com/FabianSeidler/binzli/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
